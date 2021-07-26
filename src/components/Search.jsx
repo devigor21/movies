@@ -21,7 +21,7 @@ const Search = (props) => {
   return (
     <div className='input-field'>
       <input
-        placeholder="shrek"
+        placeholder="Search"
         type="search"
         className="validate"
         value={search}

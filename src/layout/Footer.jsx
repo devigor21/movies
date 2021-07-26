@@ -4,7 +4,7 @@ function Footer() {
       <div className="footer-copyright">
         <div className="container">
           © {new Date().getFullYear()} Igor Dev
-          <a className="grey-text text-lighten-4 right" href="#!">More Links</a>
+          <a className="grey-text text-lighten-4 right" href="https://github.com/devigor21/movies">Repo</a>
         </div>
       </div>
     </footer>
