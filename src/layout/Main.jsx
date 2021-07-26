@@ -45,7 +45,6 @@ const Main = () => {
       }
     </main>
   );
-
 };
 
 export { Main };
