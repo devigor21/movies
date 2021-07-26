@@ -11,7 +11,7 @@ const Search = (props) => {
     if (event.key === 'Enter') {
       searchWith(search, type)
     }
-  }
+  };
 
   const handleFilter = (event) => {
     searchWith(search, event.target.dataset.type);

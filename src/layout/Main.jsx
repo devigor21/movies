@@ -29,11 +29,11 @@ const Main = () => {
       .then(responce => responce.json())
       .then(data => {
         setMovies(data.Search);
-        isLoading(false)
+        isLoading(false);
       })
       .catch((err) => {
         console.error(err);
-        isLoading(false)
+        isLoading(false);
       });
   }, []);
 
